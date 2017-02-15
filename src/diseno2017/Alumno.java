@@ -30,7 +30,7 @@ public class Alumno {
     
     protected String AsignarCarne()
     {
-        return '1231223';
+        return "1231223";
     }
     public void setNombre(String nombre)
     {
