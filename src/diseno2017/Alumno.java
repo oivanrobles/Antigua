@@ -28,6 +28,14 @@ public class Alumno {
         Carne = AsignarCarne();
     }
     
+    public Alumno(String nombre, String apellido)
+    {
+        Id =21; 
+        Nombre =nombre;
+        Apellido = apellido;
+        Carne = AsignarCarne();
+    }
+    
     protected String AsignarCarne()
     {
         return "1231223";

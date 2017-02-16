@@ -28,13 +28,15 @@ public class Main {
         Alumno B;
         Alumno C; 
         B = new Alumno();
-        C = new Alumno();
+        C = new Alumno("Juan", "Perez");
         
-        System.out.println(B.equals(C));
-        System.out.println(B.toString());
-        System.out.println(B.getNombre());
-        B.setNombre("Juan");
-        System.out.println(B.getNombre());
+        Curso Progra= new Curso("Progra",20);
+        Progra.InscribirAlumno(new Alumno ("juan", "perez"));
+        Progra.InscribirAlumno(new Alumno ("pedro", "gomez"));
+        Progra.InscribirAlumno(new Alumno ("maria", "sagastume"));
+        Progra.InscribirAlumno("Antonio", "Martinez");
+        //System.out.println(Progra.MostrarInscritos());
+        System.out.println(Progra);
     }
     
 }
